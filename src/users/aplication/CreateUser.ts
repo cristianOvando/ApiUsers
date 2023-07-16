@@ -15,7 +15,7 @@ export class PostUser {
         Password,
       );
       if (!user) {
-        throw new Error(`music ${Username} no se agregado`);
+        throw new Error(`${Username} no se agrego`);
       }
       return user;
     } catch (error) {

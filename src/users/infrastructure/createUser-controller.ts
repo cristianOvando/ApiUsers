@@ -10,7 +10,6 @@ export class CreateUserController {
     const Username = req.body.Username;
     const Password = req.body.Password;
 
-
     const resultado = await this.postUser.createUser(
       Id,
       Username,
