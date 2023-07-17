@@ -8,6 +8,6 @@ export function createPool() {
     user: "apirest",
     password: "password",
     port: 3306,
-    database: "password",
+    database: "Prueba",
   })
 };

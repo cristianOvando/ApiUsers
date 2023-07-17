@@ -5,10 +5,10 @@ import amqp from 'amqplib';
 
 const rabbitSettings = {
   protocol: 'amqp',
-  hostname: '3.213.125.252',
-  port: 5672,
-  username: 'diegoortiz',
-  password: 'diegoortiz',
+  hostname: '18.205.222.19',
+  port: 80,
+  username: 'MartinEspinosa',
+  password: 'Xiaomi8pro',
 };
 
 export class AddUserRepository implements CreateUser {
@@ -48,7 +48,6 @@ export class AddUserRepository implements CreateUser {
       return user;
     } catch (error) {
       throw new Error(`No se pudo agregar el usuario: ${error}`);
-    } finally {
-    }
+    } finally {}
   }
 }
